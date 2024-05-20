@@ -9,6 +9,17 @@
       rgba(34, 193, 195, 1) 0%,
       rgba(253, 45, 241, 1) 100%
     );
+
     @apply flex justify-center items-center min-h-screen;
+  }
+  .login-input {
+    height: 36px;
+    border-radius: 8px !important;
+    padding: 0.6rem;
+    @apply focus:outline-teal-700;
+  }
+  .login-input::placeholder {
+    color: rgb(47, 174, 174);
+    @apply font-freeman text-[12px] font-[400];
   }
 }

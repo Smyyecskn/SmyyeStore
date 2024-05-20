@@ -8,8 +8,6 @@ module.exports = {
       },
       color: {
         main: "#FFC156",
-        navbarColor: "bg-gradient-to-r from-rose-400 to-indigo-600",
-        footerColor: "bg-gradient-to-r from-indigo-600 to-rose-400",
       },
       boxShadow: {
         login:
